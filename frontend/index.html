@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Manoj - Full Stack Developer Portfolio"
+  >
+
+  <title>Manoj | Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ===============================
+       NAVIGATION BAR
+  ================================ -->
+
+  <header class="navbar">
+
+    <a class="logo" href="#home">
+      Portfolio<span>.</span>
+    </a>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      aria-label="Open menu"
+    >
+      ☰
+    </button>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button
+      class="theme-btn"
+      id="themeBtn"
+      aria-label="Toggle theme"
+    >
+      ☀
+    </button>
+
+  </header>
+
+
+  <!-- ===============================
+       MAIN CONTENT
+  ================================ -->
+
+  <main>
+
+    <!-- ===============================
+         HOME SECTION
+    ================================ -->
+
+    <section id="home" class="hero section">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          HELLO, I'M
+        </p>
+
+        <h1>
+          Manoj
+        </h1>
+
+        <h2>
+          Full-Stack Developer
+        </h2>
+
+        <p class="hero-text">
+          I build modern, responsive and useful web applications
+          using frontend, backend and database technologies.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            class="btn primary"
+            href="#projects"
+          >
+            View Projects
+          </a>
+
+          <a
+            class="btn secondary"
+            href="#contact"
+          >
+            Contact Me
+          </a>
+
+        </div>
+
+
+        <!-- Social Links -->
+
+        <div class="socials">
+
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Hero Card -->
+
+      <div class="hero-card">
+
+        <div class="avatar">
+          M
+        </div>
+
+        <p>
+          Available for opportunities
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===============================
+         ABOUT SECTION
+    ================================ -->
+
+    <section id="about" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          ABOUT ME
+        </p>
+
+        <h2>
+          Building with curiosity and purpose.
+        </h2>
+
+      </div>
+
+
+      <div class="about-grid">
+
+        <p>
+          I am Manoj, a passionate Full Stack Developer who enjoys
+          building modern, responsive, and user-friendly web
+          applications. I work with frontend, backend, databases,
+          and APIs to create complete web solutions. I am
+          continuously learning new technologies and improving
+          my problem-solving skills.
+        </p>
+
+
+        <div class="stats">
+
+          <div>
+            <strong>10+</strong>
+            <span>Projects</span>
+          </div>
+
+          <div>
+            <strong>5+</strong>
+            <span>Technologies</span>
+          </div>
+
+          <div>
+            <strong>100%</strong>
+            <span>Learning Mindset</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===============================
+         SKILLS SECTION
+    ================================ -->
+
+    <section id="skills" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          MY SKILLS
+        </p>
+
+        <h2>
+          Technologies I work with
+        </h2>
+
+      </div>
+
+
+      <div class="skills-grid">
+
+        <div class="skill">
+          HTML5
+        </div>
+
+        <div class="skill">
+          CSS3
+        </div>
+
+        <div class="skill">
+          JavaScript
+        </div>
+
+        <div class="skill">
+          Node.js
+        </div>
+
+        <div class="skill">
+          Express.js
+        </div>
+
+        <div class="skill">
+          MongoDB
+        </div>
+
+        <div class="skill">
+          Python
+        </div>
+
+        <div class="skill">
+          Git &amp; GitHub
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===============================
+         PROJECTS SECTION
+    ================================ -->
+
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          MY WORK
+        </p>
+
+        <h2>
+          Featured Projects
+        </h2>
+
+        <p>
+          Projects are loaded dynamically from the backend database.
+        </p>
+
+      </div>
+
+
+      <div
+        id="projectsGrid"
+        class="projects-grid"
+      >
+
+        <p class="loading">
+          Loading projects...
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===============================
+         CONTACT SECTION
+    ================================ -->
+
+    <section id="contact" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          GET IN TOUCH
+        </p>
+
+        <h2>
+          Let's build something great.
+        </h2>
+
+      </div>
+
+
+      <!-- Contact Form -->
+
+      <form
+        id="contactForm"
+        class="contact-form"
+      >
+
+        <input
+          id="name"
+          type="text"
+          placeholder="Your name"
+          required
+        >
+
+        <input
+          id="email"
+          type="email"
+          placeholder="Your email"
+          required
+        >
+
+        <textarea
+          id="message"
+          rows="6"
+          placeholder="Your message"
+          required
+        ></textarea>
+
+
+        <!-- Send Message -->
+
+        <button
+          class="btn primary"
+          type="submit"
+        >
+          Send Message
+        </button>
+
+
+        <p id="formStatus"></p>
+
+      </form>
+
+
+      <!-- ===============================
+           EXCEL DOWNLOAD BUTTON
+      ================================ -->
+
+      <div style="margin-top: 20px;">
+
+        <button
+          id="downloadContactsBtn"
+          class="btn"
+          type="button"
+        >
+          📊 Download Contact Messages
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ===============================
+       FOOTER
+  ================================ -->
+
+  <footer>
+
+    <p>
+      ©
+      <span id="year"></span>
+      Manoj.
+      Built with HTML, CSS, JavaScript, Node.js &amp; MongoDB.
+    </p>
+
+  </footer>
+
+
+  <!-- ===============================
+       JAVASCRIPT
+  ================================ -->
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>ss
