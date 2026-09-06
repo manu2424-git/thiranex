@@ -1,0 +1,2 @@
+# thiranex
+FULL STACK DEVELOPMENT
