@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Portfolio Website — Full Stack
 
 A modern, responsive full-stack personal portfolio built with:
@@ -74,3 +75,7 @@ Before deployment, edit `frontend/js/config.js` and replace the API URL with you
 
 ## Important
 Do not commit `.env` or real API keys/passwords to GitHub.
+=======
+# thiranex
+FULL STACK DEVELOPMENT
+>>>>>>> c32c1ab460788526b6927fb4c3f2c15a795d2fab
